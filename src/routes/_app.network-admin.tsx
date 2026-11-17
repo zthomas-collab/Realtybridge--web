@@ -1,0 +1,3 @@
+import { createFileRoute } from '@tanstack/react-router';
+import Screen from '@/screens/realtor-network-admin';
+export const Route = createFileRoute('/_app/network-admin')({ head: () => ({ meta: [{ title: 'Realtor Network Oversight — RealtyBridge' }, { name: 'description', content: 'Separate moderation, reports and engagement analytics for the Realtor Referral Network.' }, { property: 'og:title', content: 'Realtor Network Oversight — RealtyBridge' }, { property: 'og:description', content: 'Review network posts and geographic demand independently of investor referrals.' }, { property: 'og:type', content: 'website' }, { name: 'twitter:card', content: 'summary_large_image' }] }), component: Screen });

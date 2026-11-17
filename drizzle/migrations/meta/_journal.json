@@ -1,0 +1,272 @@
+{
+  "version": "7",
+  "dialect": "postgresql",
+  "entries": [
+    {
+      "idx": 0,
+      "version": "7",
+      "when": 1791822258107,
+      "tag": "0000_realtybridge_schema",
+      "breakpoints": true
+    },
+    {
+      "idx": 1,
+      "version": "7",
+      "when": 1791833500847,
+      "tag": "0001_hide_withdrawn_interest_deals",
+      "breakpoints": true
+    },
+    {
+      "idx": 2,
+      "version": "7",
+      "when": 1791833958329,
+      "tag": "0002_complimentary_access",
+      "breakpoints": true
+    },
+    {
+      "idx": 3,
+      "version": "7",
+      "when": 1791837555022,
+      "tag": "0003_realtors_pay_investors_free",
+      "breakpoints": true
+    },
+    {
+      "idx": 4,
+      "version": "7",
+      "when": 1791837991994,
+      "tag": "0004_add_investor_buybox",
+      "breakpoints": true
+    },
+    {
+      "idx": 5,
+      "version": "7",
+      "when": 1791838082853,
+      "tag": "0005_add_buybox_to_public_profiles",
+      "breakpoints": true
+    },
+    {
+      "idx": 6,
+      "version": "7",
+      "when": 1791847414033,
+      "tag": "0006_add_profile_counties",
+      "breakpoints": true
+    },
+    {
+      "idx": 7,
+      "version": "7",
+      "when": 1791847567692,
+      "tag": "0007_add_deal_county_matching",
+      "breakpoints": true
+    },
+    {
+      "idx": 8,
+      "version": "7",
+      "when": 1791922244452,
+      "tag": "0008_free_accounts_are_realtors",
+      "breakpoints": true
+    },
+    {
+      "idx": 9,
+      "version": "7",
+      "when": 1791923328550,
+      "tag": "0009_add_realtor_experience",
+      "breakpoints": true
+    },
+    {
+      "idx": 10,
+      "version": "7",
+      "when": 1791925438014,
+      "tag": "0010_add_buybox_deal_types",
+      "breakpoints": true
+    },
+    {
+      "idx": 11,
+      "version": "7",
+      "when": 1792001871350,
+      "tag": "0011_add_contractor_role",
+      "breakpoints": true
+    },
+    {
+      "idx": 12,
+      "version": "7",
+      "when": 1792001906721,
+      "tag": "0012_contractor_profiles",
+      "breakpoints": true
+    },
+    {
+      "idx": 13,
+      "version": "7",
+      "when": 1792002211624,
+      "tag": "0013_free_account_role_choice",
+      "breakpoints": true
+    },
+    {
+      "idx": 14,
+      "version": "7",
+      "when": 1792005274096,
+      "tag": "0014_realtor_listings",
+      "breakpoints": true
+    },
+    {
+      "idx": 15,
+      "version": "7",
+      "when": 1792093301173,
+      "tag": "0015_deals_for_contractor",
+      "breakpoints": true
+    },
+    {
+      "idx": 16,
+      "version": "7",
+      "when": 1792166921556,
+      "tag": "0016_add_deal_type_to_deals",
+      "breakpoints": true
+    },
+    {
+      "idx": 17,
+      "version": "7",
+      "when": 1792170929518,
+      "tag": "0017_community_counts",
+      "breakpoints": true
+    },
+    {
+      "idx": 18,
+      "version": "7",
+      "when": 1792342497934,
+      "tag": "0018_listing_opportunity_referral_workflow",
+      "breakpoints": true
+    },
+    {
+      "idx": 19,
+      "version": "7",
+      "when": 1792342720049,
+      "tag": "0019_align_referral_service_area_eligibility",
+      "breakpoints": true
+    },
+    {
+      "idx": 20,
+      "version": "7",
+      "when": 1792344141582,
+      "tag": "0020_list_realtors_for_posted_deal",
+      "breakpoints": true
+    },
+    {
+      "idx": 21,
+      "version": "7",
+      "when": 1792344546645,
+      "tag": "0021_generic_referral_acknowledgment_text",
+      "breakpoints": true
+    },
+    {
+      "idx": 22,
+      "version": "7",
+      "when": 1792345276235,
+      "tag": "0022_reviews_after_own_outcome_report",
+      "breakpoints": true
+    },
+    {
+      "idx": 23,
+      "version": "7",
+      "when": 1792774303856,
+      "tag": "0023_admin_referral_dashboard_completion",
+      "breakpoints": true
+    },
+    {
+      "idx": 24,
+      "version": "7",
+      "when": 1792787991655,
+      "tag": "0024_realtor_network_storage",
+      "breakpoints": true
+    },
+    {
+      "idx": 25,
+      "version": "7",
+      "when": 1792788026908,
+      "tag": "0025_realtor_network_actions",
+      "breakpoints": true
+    },
+    {
+      "idx": 26,
+      "version": "7",
+      "when": 1792788073014,
+      "tag": "0026_network_admin_engagement_count",
+      "breakpoints": true
+    },
+    {
+      "idx": 27,
+      "version": "7",
+      "when": 1792788498233,
+      "tag": "0027_network_agreement_privacy_on_reopen",
+      "breakpoints": true
+    },
+    {
+      "idx": 28,
+      "version": "7",
+      "when": 1793216902309,
+      "tag": "0028_multi_role_accounts",
+      "breakpoints": true
+    },
+    {
+      "idx": 29,
+      "version": "7",
+      "when": 1793394057158,
+      "tag": "0029_member_followups",
+      "breakpoints": true
+    },
+    {
+      "idx": 30,
+      "version": "7",
+      "when": 1793552672409,
+      "tag": "0030_interest_investor_contact",
+      "breakpoints": true
+    },
+    {
+      "idx": 31,
+      "version": "7",
+      "when": 1793652525206,
+      "tag": "0031_enforce_active_platform_access",
+      "breakpoints": true
+    },
+    {
+      "idx": 32,
+      "version": "7",
+      "when": 1794586967624,
+      "tag": "0032_realtor_deal_investor_contact",
+      "breakpoints": true
+    },
+    {
+      "idx": 33,
+      "version": "7",
+      "when": 1794759556872,
+      "tag": "0033_realtor_pro_freemium",
+      "breakpoints": true
+    },
+    {
+      "idx": 34,
+      "version": "7",
+      "when": 1794762487651,
+      "tag": "0034_lock_down_probe_functions_and_license_review",
+      "breakpoints": true
+    },
+    {
+      "idx": 35,
+      "version": "7",
+      "when": 1794762639408,
+      "tag": "0035_avatars_owner_only_read",
+      "breakpoints": true
+    },
+    {
+      "idx": 36,
+      "version": "7",
+      "when": 1794948520187,
+      "tag": "0036_peer_review_scorecards",
+      "breakpoints": true
+    },
+    {
+      "idx": 37,
+      "version": "7",
+      "when": 1794948573198,
+      "tag": "0037_protect_peer_review_scores",
+      "breakpoints": true
+    }
+  ]
+}

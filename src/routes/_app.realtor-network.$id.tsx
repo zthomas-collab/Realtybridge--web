@@ -1,0 +1,4 @@
+import { createFileRoute } from '@tanstack/react-router';
+import Screen from '@/screens/realtor-network-detail';
+export const Route = createFileRoute('/_app/realtor-network/$id')({ head: () => ({ meta: [{ title: 'Realtor Network Opportunity — RealtyBridge' }, { name: 'description', content: 'Review a Realtor referral opportunity, professional profiles and private connections.' }, { property: 'og:title', content: 'Realtor Network Opportunity — RealtyBridge' }, { property: 'og:description', content: 'Realtor-controlled referral connections and private conversations.' }, { property: 'og:type', content: 'website' }, { name: 'twitter:card', content: 'summary_large_image' }] }), component: Page });
+function Page() { const { id } = Route.useParams(); return <Screen id={id} />; }
